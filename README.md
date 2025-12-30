@@ -50,45 +50,6 @@ To run this code successfully, ensure you have the following environment:
 
 ------
 
-## 🚀 Usage
-
-1. **File Extension**:
-
-   - Rename `AnalysisCode_uploadVersion.txt` to `AnalysisCode_uploadVersion.do` to run it directly in Stata.
-
-2. **Set Working Directory**:
-
-   - Open the 
-
-     ```
-     .do
-     ```
-
-      file and modify the 
-
-     ```
-     cd
-     ```
-
-      command (Line 13) to point to your local data folder:
-
-     stata
-
-     
-
-     cd "D:\data"  // Update this path to your local directory
-
-3. **Data Availability**:
-
-   - **Important**: The raw data files (`df.dta`, `df_lag.dta`, `dta_busid_val_predict.dta`, etc.) are **not included** in this repository due to copyright and privacy restrictions.
-   - To replicate the analysis, ensure your local `data/` folder contains the necessary datasets.
-
-4. **Execution**:
-
-   - Run the script in Stata. The results tables will be automatically exported to a subfolder named `results/` (ensure the folder exists or allow Stata to create it).
-
-------
-
 ## 📊 Analysis Workflow
 
 The Stata script is organized into the following sections corresponding to the paper's methodology:
